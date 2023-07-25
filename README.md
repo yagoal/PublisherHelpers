@@ -266,10 +266,6 @@ enum ProcessingError: Error {
 
 ---
 
-Perfeito, vou escrever para o `Future(weak:)`.
-
----
-
 # 🚀 `Future(weak:attemptToFulfill:)`
 
 ## 🇬🇧 English:
@@ -331,15 +327,8 @@ Using the `asPublisher()` extension, we can convert RxSwift's `Observable` and `
 ### 🇧🇷 Português:
 
 #### `Observable` e `Single` para `AnyPublisher`
-Utilizando a extensão `asPublisher()`, podemos converter os tipos `Observable` e `Single` do RxSwift para o `AnyPublisher` do Combine. Isso é crucial ao migrar ou fazer com que RxSwift coexista com Combine em um projeto. Com o mecanismo de referência fraca que configuramos, essa conversão se torna segura em relação à memória, mantendo seu código livre de potenciais vazamentos de memória.
+Utilizando a extensão `asPublisher()`, podemos converter os tipos `Observable` e `Single` do RxSwift para o `AnyPublisher` do Combine. Isso é crucial ao migrar ou fazer com que RxSwift coexista com Combine em um projeto. Com o mecanismo de referência fraca que configuramos, essa conversão se torna segura em relação à memória, mantendo seu código livre de potenciais vazamentos de 
 
----
-
-## 📖 Example (Exemplo):
-
-Desculpe pelo equívoco. Criarei um exemplo genérico com base na estrutura que você forneceu, sem copiar seu código.
-
-Vamos supor um cenário onde um ViewModel busca informações sobre um produto a partir de um serviço que retorna um `Observable` ou `Single` do RxSwift. Queremos converter esse fluxo para usar Combine no ViewModel e na ViewController.
 
 ### 📖 Example (Exemplo):
 
