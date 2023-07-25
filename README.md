@@ -59,7 +59,7 @@ Principais extensões:
   
 - **`Future(weak:)`**: Permite inicializar um `Future` usando uma referência fraca.
 
-Veja os exemplos detalhados acima para uma compreensão mais profunda.
+Veja os exemplos detalhados abaixo para uma compreensão mais profunda.
 
 ### 🔄 Conversão de RxSwift para Combine
 
