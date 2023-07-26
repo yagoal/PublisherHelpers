@@ -436,8 +436,8 @@ struct ProductDetailView: View {
                     print("Error: \(error)")
                     self.showError = true
                 }
-            }, receiveValue: { product in
-                self.product = product
+            }, receiveValue: { [weak self] product in
+                self?.product = product
             })
             .store(in: &cancelables)
     }
